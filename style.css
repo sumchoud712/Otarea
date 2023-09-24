@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 15px;
+  padding-inline: 30px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+#nav__icons {
+  display: flex;
+  align-items: center;
+}
+
+#nav__icons > img {
+  height: 49px;
+}
+
+#nav__icons > p {
+  color: #373737;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#vertical-line {
+  height: 20px;
+  padding-inline: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.61);
+}
+
+#nav__links {
+  display: flex;
+  align-items: center;
+}
+
+#nav__links > ul {
+  display: flex;
+  list-style-type: none;
+}
+#nav__links > ul > li > a {
+  text-decoration: none;
+  color: #373737;
+  font-size: 22px;
+  padding-inline: 15px;
+}
+#nav__links > button {
+  border-radius: 23.5px;
+  color: #fff;
+  font-size: 30px;
+  padding: 0px 10px;
+  border: none;
+  background: #184655;
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+  background-image: url("./assets/hero__bg.png");
+  width: 90vw;
+  margin: auto;
+  height: 742px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.hero__body > h1 {
+  color: #184655;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#search-bar {
+  display: flex;
+  width: 546px;
+  height: 78.93px;
+  background-color: white;
+  border-radius: 19px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#search-bar > div {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+#search-bar > div > img {
+  padding: 20px;
+}
+#search-bar > div > input {
+  border: none;
+  width: 100%;
+  font-size: 22px;
+  color: #727272;
+}
+
+#search-bar > button {
+  background: #184655;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#search-bar > button {
+  flex: 1;
+}
+#hashtags > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#hashtags > ul > li {
+  color: #53748c;
+  font-size: 21px;
+  font-weight: 400;
+  padding-right: 50px;
+}
+
+#blog {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+  background-image: url("./assets/hero__bg.png");
+  width: 90vw;
+  margin: auto;
+  height: 512px;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+#blog > img {
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
+}
+
+#blog__body {
+  padding: 10px;
+}
+
+#blog__body > h1 {
+  color: #404040;
+  font-size: 42px;
+  font-weight: 500;
+}
+#blog__body > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#blog__body > p {
+  color: #464343;
+  font-size: 28px;
+  font-weight: 400;
+}
+#blog__body > div > p {
+  color: rgba(111, 110, 110, 0.84);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 431.532px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: linear-gradient(
+    117deg,
+    rgba(249, 247, 247, 0.1) 19.16%,
+    rgba(249, 247, 247, 0.4) 80.19%
+  );
+  box-shadow: 0px 2px 20px -1px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+#card > img {
+  width: 100%;
+}
+
+#card__body {
+  padding: 15px;
+}
+
+#card__body > h1 {
+  color: #4a4848;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#card__body > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card__body > div > p {
+  color: rgba(111, 110, 110, 0.84);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#card__body > p {
+  color: #464343;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+#card__body > a {
+  display: block;
+  color: #464343;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+footer {
+  display: flex;
+  border-radius: 30px;
+  background: url("./assets/hero__bg.png");
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  height: 707px;
+  width: 90vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+footer>img{
+  height: 353px;
+}
+
+footer>div{
+  width: 424.656px;
+}
+footer>div>button{
+  border: none;
+  color: #FFF;
+  font-size: 30px;
+  border-radius: 23.5px;
+  padding: 5px 20px;
+  background: linear-gradient(92deg, #2C56AA 14.14%, #3BB08B 84.43%);
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+}
